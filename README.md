@@ -1,0 +1,1 @@
+# blueyeti-settings-extension
