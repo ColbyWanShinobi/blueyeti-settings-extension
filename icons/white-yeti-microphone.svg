@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <!-- White Blue Yeti-style microphone for dark GNOME panels. -->
+  <rect x="18" y="5" width="28" height="38" rx="14" fill="#ffffff"/>
+  <rect x="21" y="8" width="22" height="32" rx="11" fill="none" stroke="#b8b8b8" stroke-width="2"/>
+  <circle cx="32" cy="19" r="3" fill="#707070"/>
+  <path d="M12 31a20 20 0 0 0 40 0M32 51v8M22 59h20" fill="none" stroke="#ffffff" stroke-linecap="round" stroke-width="5"/>
+</svg>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.blueyeti-settings" path="/org/gnome/shell/extensions/blueyeti-settings/">
+    <key name="device-match" type="s">
+      <default>'Blue Yeti|USB Advanced Audio Device'</default>
+      <summary>Regular expression used to identify the Blue Yeti</summary>
+      <description>Matched case-insensitively against PipeWire/PulseAudio device names and descriptions, and ALSA card descriptions.</description>
+    </key>
+    <key name="monitor-control" type="s">
+      <default>'Mic'</default>
+      <summary>ALSA mixer control for hardware monitoring</summary>
+      <description>The simple ALSA mixer control used to mute or unmute the Yeti's direct monitor path.</description>
+    </key>
+    <key name="refresh-seconds" type="u">
+      <default>3</default>
+      <range min="1" max="60"/>
+      <summary>Refresh interval</summary>
+    </key>
+    <key name="icon-color" type="s">
+      <default>'blue'</default>
+      <choices>
+        <choice value="blue"/>
+        <choice value="white"/>
+      </choices>
+      <summary>Panel icon color</summary>
+    </key>
+    <key name="panel-position" type="s">
+      <default>'right'</default>
+      <choices>
+        <choice value="left"/>
+        <choice value="center"/>
+        <choice value="right"/>
+      </choices>
+      <summary>Panel position</summary>
+    </key>
+  </schema>
+</schemalist>

@@ -1,0 +1,8 @@
+{
+  "uuid": "blueyeti-settings@owljet.com",
+  "name": "Blue Yeti Settings",
+  "description": "Dedicated input, output, and zero-latency monitor controls for a Blue Yeti microphone.",
+  "shell-version": ["45", "46", "47", "48", "49", "50"],
+  "settings-schema": "org.gnome.shell.extensions.blueyeti-settings",
+  "version": 10
+}
